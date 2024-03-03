@@ -1,0 +1,17 @@
+{
+  "overrides": [
+    {
+      "files": "*.js",
+      "options": {
+        "singleQuote": false,
+        "quoteProps": "as-needed"
+      }
+    },
+    {
+      "files": "*.json",
+      "options": {
+        "quoteProps": "as-needed"
+      }
+    }
+  ]
+}
