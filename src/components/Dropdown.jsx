@@ -9,7 +9,10 @@ const Dropdown = ({ title }) => {
 
   return (
     <div className="relative mt-2">
-      <button className="cursor-pointer" onClick={toggleDropdown}>
+      <button
+        className="cursor-pointer focus:text-normalActive"
+        onClick={toggleDropdown}
+      >
         {title}{" "}
         {title === "Język" ? (
           <i class="fa-solid fa-globe text-normal"></i>
